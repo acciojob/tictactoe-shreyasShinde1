@@ -1,1 +1,123 @@
 /*  your css code here. If applicable */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*.container{
+    display: flex;
+    margin: 20px;
+}
+
+.item{
+    border-radius: 50%;
+    /* width: 20px; */
+    /* height: 20px; */
+    /* display: block; */
+/* }  */
+body{
+    background: black;
+    width: 100%;
+}
+
+#nameContainer{
+    margin: 20px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+#user1, #user2{
+    display: flex;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    /* background: linear-gradient(45deg,yellow,red,pink) */
+    background: linear-gradient(60deg, black, rgb(198, 6, 6));
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 50px;
+    color: blue;
+}
+#nameContainer>button{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(45deg,yellow,red,pink);
+}
+#gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+}
+#message{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 30px;
+}
+#game-grid{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    /* margin: 30px 30%; */
+}
+#gridContainer > div{
+    width: 100px;
+    border: 1.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+#btnContainer{
+    display: none;
+    /* width: 100%; */
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: auto; */
+    margin: 30px;
+    gap: 30px;
+}
+#btnContainer>button:nth-child(1){
+    background-color: red;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#btnContainer>button:nth-child(2){
+    background-color: green;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
