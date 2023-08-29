@@ -27,7 +27,7 @@ body{
     display: grid;
     place-items: center;
 }
-#user1, #user2{
+#player1, #player2{
     display: flex;
     color: white;
     margin: 20px;
